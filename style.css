@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.barra-topo {
+    height: 55px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    border-bottom: 1px solid #DBDBDB;
+    box-sizing: content-box;
+}
+
+.barra-topo-in {
+    height: 100%;
+    width: 934px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    background-color: #FFFFFF;
+    box-sizing: content-box;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    width: 144.62px;
+    height: 22px;
+}
+
+.logo-instagram {
+    bottom: 0.37px;
+    font-size: 19.25px;
+    margin-right: 0.685px;
+}
+
+.mini-divisoria {
+    background-color: #DBDBDB;
+    height: 100%;
+    width: 1px;;
+}
+
+.logo {
+    top: 0px;
+    width: 103px;
+    height: 29px;
+}
+
+.caixa-pesquisar {
+    width: 215px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+}
+
+.pesquisar {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #979797;
+}
+
+.icones-topo {
+    height: 17.88px;
+    width: 143.28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones-topo ion-icon {
+    font-size: 20px;
+}
+
+.conteiner {
+    margin-top: 56px;
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+}
+
+.stories_feed {
+    height: 100%;
+    width: 614px;
+    margin-right: 322px;
+}
+
+.side-bar {
+    margin-top: 1px;
+    margin-left: 616px;
+    position: fixed;
+    width: 320px;
+    height: 100%;
+}
+
+.stories {
+    background-color: #FFFFFF;
+    margin-top: 34px;
+    width: 614px;
+    height: 118px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    margin-bottom: 24px;
+}
+
+.stories_img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 84px;
+}
+
+.stories_txt {
+    height: 34px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_stories_inicial {
+    display: flex;
+    background: url(images/stories_background1.jpg);
+    justify-content: center;
+    align-items: center;
+    height: 66px;
+    width: 66px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.div_stories_meio {
+    display: flex;
+    background: url(images/stories_background1.jpg);
+    justify-content: center;
+    align-items: center;
+    height: 66px;
+    width: 66px;
+    margin-top: 10px;
+}
+
+.div1_stories_final {
+    display: flex;
+    background: url(images/stories_background2.jpg);
+    align-items: center;
+    justify-content: flex-end;
+    height: 66px;
+    width: 35px;
+    margin-top: 10px;
+}
+
+.div2_stories_final {
+    background: url(images/memeriagourmet.png);
+    bottom: 0px;
+    height: 56px;
+    width: 30px;
+}
+
+.seta ion-icon {
+    display: flex;
+    color: white;
+    font-size: 32px;
+    margin-top: 24px;
+    margin-left: -7px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.stories_txt a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.gag {
+    margin-left: 32px;
+}
+
+.meowed {
+    margin-left: 42px;
+}
+
+.barked {
+    margin-left: 35px;
+}
+
+.nathanwpyle {
+    margin-left: 23px;
+}
+
+.respondeai {
+    margin-left: 8px;
+}
+
+.filomoderna {
+    margin-left: 16px;
+    margin-right: 12px;
+}
+
+.feed {
+    align-items: center;
+    justify-content: center;
+}
+
+.foto {
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    width: 614px;
+    height: 749px;
+    background-color: #FFFFFF;
+    box-sizing: content-box;
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+
+.barra-foto {
+    height: 61px;
+    display: flex;
+    align-items: center;
+}
+
+.foto-miniatura {
+    height: 32px;
+    width: 32px;
+    margin-left: 17px;
+    margin-top: 1px;
+}
+
+.nome-pagina {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.barra-foto ion-icon {
+    font-size: 20px;
+    margin-left: 460px;
+    color: #262626;
+}
+
+.img-principal {
+    height: 612px;
+    width: 614px;
+}
+
+.icones-foto {
+    display: flex;
+    height: 29px;
+    align-items: baseline;
+}
+
+.icones-foto ion-icon {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.heart-outline1 {
+    margin-left: 18px;
+}
+
+.chatbubble-outline {
+    margin-left: 18px;
+}
+
+.paper-plane-outline1 {
+    margin-left: 18px;
+}
+
+.bookmark-outline {
+    margin-left: 478px;
+}
+
+.curtidas {
+    display: flex;
+    height: 47px;
+    align-items: center; 
+}
+
+.miniatura-curtidas {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
+    margin-left: 18px;
+}
+
+.texto-curtidas {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.img-principal-final {
+    height: 91px;
+    width: 614px;
+}
+
+.box1 {
+    display: flex;
+    height: 103px;
+    width: 321px;
+    margin-top: 24px;
+}
+
+.box11 {
+    display: flex;
+    width: 102px;
+    height: 103px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box12 {
+    width: 219px;
+    height: 103px;
+}
+
+.miniatura-principal {
+    height: 56px;
+    width: 56px;
+}
+
+.catanacomics {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+    margin-top: 37px;
+}
+
+.catana {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.box2 {
+    display: flex;
+    height: 15px;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.sugestoes {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;
+    margin-left: 29px;
+}
+
+.ver-tudo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626;
+    margin-left: 120px;
+}
+
+.box3 {
+    display: flex;
+    margin-top: 17px;
+    height: 260px;
+    width: 392px;
+}
+
+.box31 {
+    justify-content: space-between;
+    height: 224px;
+    width: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
